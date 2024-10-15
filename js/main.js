@@ -25,11 +25,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-
-
-
-// 
-
 document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('hamburger');
     const navLinks = document.getElementById('nav-contact');

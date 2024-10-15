@@ -44,6 +44,19 @@ a {
     cursor: pointer;
 }
 
+a:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+img {
+    transition: 0.4s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
 /* header start */
 
 header {
@@ -101,6 +114,12 @@ nav {
     line-height: 28.8px;
     color: var(--white);
     background-color: var(--bg-link);
+    transition: 0.5s;
+}
+
+.nav-contact:hover {
+    transform: scale(1.1);
+    background-color: var(--bg-b-link);
 }
 
 /* shrink */
@@ -263,11 +282,11 @@ nav {
     line-height: 22.4px;
     color: var(--text-blue);
     border-bottom: 2px solid var(--white);
+    transition: 0.5s;
 }
 
 .servise-title:hover {
     border-bottom: 2px solid var(--text-blue);
-    transition: 0.5s;
 }
 
 .servise-main-title {
@@ -414,6 +433,7 @@ nav {
     font-size: 18px;
     font-weight: 500;
     line-height: 25.6px;
+    transition: 0.5s;
 }
 
 .portfolio-card__link::after {
@@ -427,7 +447,6 @@ nav {
 }
 
 .portfolio-card__link:hover {
-    transition: 0.5s;
     color: var(--bg-b-link);
 }
 
@@ -505,11 +524,11 @@ nav {
 
 .instagram svg {
     stroke: var(--messenger);
+    transition: 0.5s;
 }
 
 .instagram:hover svg {
     stroke: var(--bg-b-link);
-    transition: 0.5s;
 }
 
 .footer-messengers :not(.instagram) svg {
@@ -585,4 +604,3 @@ nav {
 .backtop-show:hover {
     box-shadow: 0 0 20px var(--bg-b-link);
 }
-
