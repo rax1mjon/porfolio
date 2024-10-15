@@ -67,6 +67,7 @@ header {
     background: url("../images/hero-back.png") no-repeat var(--bg-blue);
     background-size: cover;
     padding: 45px 0 33px;
+    transition: 1s;
 }
 
 nav {
